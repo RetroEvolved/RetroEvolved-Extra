@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-# This file is part of The RetroPie Project
+# This file is part of The RetroEvolved Project
 # 
-# The RetroPie Project is the legal property of its developers, whose names are
+# The RetroEvolved project is a reworking of the RetroPie Project which is the legal property of its developers, whose names are
 # too numerous to list here. Please refer to the COPYRIGHT.md file distributed with this source.
 # 
 # See the LICENSE.md file at the top-level directory of this distribution and 
-# at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
+# at https://raw.githubusercontent.com/RetroEvolved/RetroEvolved-Setup/master/LICENSE.md
 #
 
 rp_module_id="pydance"
@@ -80,6 +80,6 @@ function configure_pydance() {
         wget https://icculus.org/pyddr/pydance-cdtitle.png
         mv pydance-cdtitle.png pydance.png
     fi
-    chown -R $user:$user /opt/retropie/ports/pydance
+    chown -R $user:$user /opt/retroevolved/ports/pydance
     addPort "$md_id" "pydance" "pydance - Open Source Dancing Game" "pushd $md_inst/pydance-1.1.0/; python pydance.py; popd"
 }
