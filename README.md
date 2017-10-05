@@ -1,9 +1,11 @@
-# RetroPie-Extra
+Collection of extra scripts written by the talented ZeroJay, repurposed for RetroEvolved to expand the possibilities of a fresh install.
 
-This is a collection of unofficial installation scripts for RetroPie allowing you to quickly and easily install emulators, ports and libretrocores that haven't been 
-included in RetroPie for one reason or another. These scripts can be considered experimental at best. 
+# RetroEvolved-Extra
 
-Those in the master branch have been tested reasonably and should work well but may have some flaws as they haven't gone through the RetroPie's watchful eyes yet. 
+This is a collection of unofficial installation scripts for RetroEvolved allowing you to quickly and easily install emulators, ports and libretrocores that haven't been 
+included in RetroEvolved for one reason or another. These scripts can be considered experimental at best. 
+
+Those in the master branch have been tested reasonably and should work well but may have some flaws as they haven't gone through the RetroEvolved's watchful eyes yet. 
 Scripts that are unfinished, untested, unpolished will not be located in this repository and instead have been moved to https://github.com/zerojay/RetroPie-Extra-unstable.
 
 Pull requests and issue reports are accepted and encouraged as well as requests. Feel free to use the issue tracker to send me any personal requests for new scripts
@@ -13,21 +15,21 @@ that you may have.
 
 Install the extra scripts
 
-The following clones the repo to your Pi and then the install-scripts.sh installs the scripts in the master branch directly to the proper directories in RetroPie-Setup.
+The following clones the repo to your Pi and then the install-scripts.sh installs the scripts in the master branch directly to the proper directories in RetroEvolved-Setup.
 
 ```
-git clone https://github.com/zerojay/RetroPie-Extra.git
-cd RetroPie-Extra/
+git clone https://github.com/zerojay/RetroEvolved-Extra.git
+cd RetroEvolved-Extra/
 ./install-extras.sh
 ```
-Run the RetroPie Setup Script (the extra scripts will be in the experimental section)
+Run the RetroEvolved Setup Script (the extra scripts will be in the experimental section)
 ```
 cd
-cd RetroPie-Setup
-sudo ./retropie_setup.sh
+cd RetroEvolved-Setup
+sudo ./retroevolved_setup.sh
 ```
 
-This script assumes that you are running it on a Raspberry Pi with the RetroPie-Setup being stored in /home/pi/RetroPie-Setup. If your setup differs, just copy the scripts directly to the folder they need to be in.
+This script assumes that you are running it on a Raspberry Pi with the RetroEvolved-Setup being stored in /home/pi/RetroEvolved-Setup. If your setup differs, just copy the scripts directly to the folder they need to be in.
 
 ### Troubleshooting
 
@@ -100,7 +102,7 @@ In the dialog box that comes up, you can select which users are allowed to use t
 ##### Supplementary
 - [X] - attract-mode.sh - Emulator Frontend - Tested and works well, not intended to completely replace EmulationStation.
 - [X] - screenshot.sh - Take screenshots remotely through SSH - Tested and works well.  
-- [X] - splashscreen-extra.sh - Install additional user-created splashscreens for RetroPie - Tested and works well.  
+- [X] - splashscreen-extra.sh - Install additional user-created splashscreens for RetroEvolved - Tested and works well.  
 
 #### Future To-Do List (not ordered by priority)
 - [X] - glshim  
@@ -109,7 +111,7 @@ In the dialog box that comes up, you can select which users are allowed to use t
 - [ ] - Stepmania/Frets on Fire through glshim/new OpenGL driver.  
 - [ ] - John's Shadow Warrior Port (jswp)  
 
-### Hall of Fame - Scripts accepted into RetroPie-Setup
+### Hall of Fame - Scripts accepted into RetroEvolved-Setup
 - [X] - LXDE - LXDE Desktop
 - [X] - SimCoupe - Sam Coupe Emulator
 - [X] - Oricutron - Oric 1/Oric Atmos emulator
@@ -117,7 +119,7 @@ In the dialog box that comes up, you can select which users are allowed to use t
 - [X] - ti99sim - Texas Instruments 99A emulator
 
 ### Contact Info/Additional Information
-Twitter: @zerojay - often posting new information and additions from the repository to the #retropie hashtag.  
-IRC: zerojay on irc.freenode.net, #retropie/#retropie-extra.
+Twitter: @zerojay - often posting new information and additions from the repository to the #retroevolved hashtag.  
+IRC: zerojay on irc.freenode.net, #retroevolved/#retroevolved-extra.
 
-If you wish to be up-to-date about all the changes happening to the repository as they happen, feel free to join the #retropie-extra channel on Freenode.
+If you wish to be up-to-date about all the changes happening to the repository as they happen, feel free to join the #retroevolved-extra channel on Freenode.
