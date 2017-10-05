@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-# This file is part of The RetroPie Project
+# This file is part of The RetroEvolved Project
 # 
-# The RetroPie Project is the legal property of its developers, whose names are
+# The RetroEvolved project is a reworking of the RetroPie Project which is the legal property of its developers, whose names are
 # too numerous to list here. Please refer to the COPYRIGHT.md file distributed with this source.
 # 
 # See the LICENSE.md file at the top-level directory of this distribution and 
-# at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
+# at https://raw.githubusercontent.com/RetroEvolved/RetroEvolved-Setup/master/LICENSE.md
 #
 
 rp_module_id="crispy-doom"
@@ -60,7 +60,7 @@ function configure_crispy-doom() {
         rm freedoom-0.10.1.zip
     fi
 
-    # Temporary until the official RetroPie WAD selector is complete.
+    # Temporary until the official RetroEvolved WAD selector is complete.
     if [[ -f "$romdir/ports/doom/doom1.wad" ]]; then
        chown $user:$user "$romdir/ports/doom/doom1.wad"
        addPort "$md_id" "crispy-doom1" "Crispy Doom Shareware" "$md_inst/crispy-doom -iwad $romdir/ports/doom/doom1.wad"
