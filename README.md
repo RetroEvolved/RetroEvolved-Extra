@@ -18,7 +18,7 @@ Install the extra scripts
 The following clones the repo to your Pi and then the install-scripts.sh installs the scripts in the master branch directly to the proper directories in RetroEvolved-Setup.
 
 ```
-git clone https://github.com/zerojay/RetroEvolved-Extra.git
+git clone https://github.com/RetroEvolved/RetroEvolved-Extra.git
 cd RetroEvolved-Extra/
 ./install-extras.sh
 ```
