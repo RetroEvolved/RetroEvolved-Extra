@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-# This file is part of The RetroPie Project
+# This file is part of The RetroEvolved Project
 # 
-# The RetroPie Project is the legal property of its developers, whose names are
+# The RetroEvolved project is a reworking of the RetroPie Project which is the legal property of its developers, whose names are
 # too numerous to list here. Please refer to the COPYRIGHT.md file distributed with this source.
 # 
 # See the LICENSE.md file at the top-level directory of this distribution and 
-# at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
+# at https://raw.githubusercontent.com/RetroEvolved/RetroEvolved-Setup/master/LICENSE.md
 #
 
 rp_module_id="kodi-extra"
@@ -44,12 +44,12 @@ function configure_kodi-extra() {
 
     cat > "$romdir/kodi/Kodi.sh" << _EOF_
 #!/bin/bash
-/opt/retropie/supplementary/runcommand/runcommand.sh 0 "kodi-standalone" "kodi"
+/opt/retroevolved/supplementary/runcommand/runcommand.sh 0 "kodi-standalone" "kodi"
 _EOF_
 
     chmod +x "$romdir/kodi/Kodi.sh"
 
-    setESSystem 'Kodi' 'kodi' '~/RetroPie/roms/kodi' '.sh .SH' '%ROM%' 'pc' 'kodi'
+    setESSystem 'Kodi' 'kodi' '~/RetroEvolved/roms/kodi' '.sh .SH' '%ROM%' 'pc' 'kodi'
 
     # Install some predefined joypad configurations
     gitPullOrClone "keymaps" https://github.com/HerbFargus/kodi-joypads.git
