@@ -102,7 +102,7 @@ In the dialog box that comes up, you can select which users are allowed to use t
 ##### Supplementary
 - [X] - attract-mode.sh - Emulator Frontend - Tested and works well, not intended to completely replace EmulationStation.
 - [X] - screenshot.sh - Take screenshots remotely through SSH - Tested and works well.  
-- [X] - splashscreen-extra.sh - Install additional user-created splashscreens for RetroEvolved - Tested and works well.  
+- [X] - splashscreen-extra.sh - Install additional user-created splashscreens for RetroPie - Tested and works well.  
 
 #### Future To-Do List (not ordered by priority)
 - [X] - glshim  
@@ -119,7 +119,7 @@ In the dialog box that comes up, you can select which users are allowed to use t
 - [X] - ti99sim - Texas Instruments 99A emulator
 
 ### Contact Info/Additional Information
-Twitter: @zerojay - often posting new information and additions from the repository to the #retroevolved hashtag.  
-IRC: zerojay on irc.freenode.net, #retroevolved/#retroevolved-extra.
+Twitter: @zerojay - often posting new information and additions from the repository to the #retropie hashtag.  
+IRC: zerojay on irc.freenode.net, #retropie/#retropie-extra.
 
-If you wish to be up-to-date about all the changes happening to the repository as they happen, feel free to join the #retroevolved-extra channel on Freenode.
+If you wish to be up-to-date about all the changes happening to the repository as they happen, feel free to join the #retropie-extra channel on Freenode.
